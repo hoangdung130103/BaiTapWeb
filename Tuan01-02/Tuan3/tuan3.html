@@ -10,30 +10,40 @@
         * {
             margin: 0;
             padding: 0;
+            box-sizing: border-box;
+            font-family: 'Roboto', sans-serif;
+
         }
-        
+        .main{
+            width: 1440px;
+            max-width: 100%;
+            margin: auto;
+        }
         .header {
             height: 70px;
             width: 100%;
-            background-color: antiquewhite;
             display: flex;
             justify-content: space-around;
         }
         
         .header-img1 {
-            width: 156px;
-            height: 41px;
-            line-height: 70px;
+            width: 130px;
+            height: 42px;
+            margin-top: 20px;
         }
-        
-        .header-img2 {
+       .li-nav2-1{
+            margin-top: 20px;
+        }
+        .li-nav2-2 {
             width: 76px;
-            line-height: 70px;
+            height: 24px;
+            margin-top: 18px;
         }
         
-        .header-img3 {
+        .li-nav2-3 {
             width: 18px;
-            line-height: 70px;
+            height: 20px;
+            margin-top:18px;
         }
         
         .header li {
@@ -41,41 +51,437 @@
         }
         
         .ul-header1 {
-            width: ;
+            width: 280px; ;
+            display: flex;
+            justify-content: space-around;
+            margin-top: 30px;
+        }
+        
+        .ul_header2 {
+            width: 360px;
             display: flex;
             justify-content: space-around;
         }
         
-        .ul_header2 {
-            display: flex;
+        .slider {
+            height: 390px;
+            margin-left: 8px;
+            position: relative;
         }
+        .slider1{
+            position: absolute;
+            top: 110px;
+            left: 132px;
+            bottom: 160px;
+        }
+        .slider1::first-line{
+            font-size: 42px;
+        }
+        .contenct{
+             height: 1934px ;
+        }
+        .contenct-I {
+          
+            display: flex;
+            justify-content: space-between;
+            margin-right: 220px;
+            margin-left: 140px;
+            margin-top: 32.5px;
+        }
+        .contenct1{
+            display: flex;
+            justify-content: space-around;
+            width: 530px;
+            height: 54px;
+            color: #009688;
+            margin-top: 32.5px;
+        }
+        .contenct2{
+            display: flex;
+            justify-content: space-around;
+            width: 442px;
+            height: 54px;
+            margin-top: 32.5px;
+        }
+       /* bat dau contenct 3 */
+        .contenct3{
+            width: 1150px;
+            display: flex;
+            justify-content: space-evenly;
+            margin-top: 56px;
+            margin-left: 152px;
+        }
+        .contenct-3-1-1{
+            height: 28px;
+            width: 94px;
+            background-color: sandybrown;
+            text-align: center;
+            border-radius: 16px;
+            position: absolute;
+            top:14px;
+            left: 158px;
+        }
+        .contenct3-1,.contenct3-2,.contenct3-3,.contenct3-4{
+            position: relative;
+        }
+        .contenct3-icon{
+            position: absolute;
+            right: 0;
+            bottom: -12px
+        }
+        .contenct-3-1-2{
+            height: 30px;
+           display: flex;
+           margin-top:16px ;
+        }
+        /* ket thuc contenct 3 */
+        /* start contenct 4 */
+        .contenct4{
+            width: 1150px;
+            display: flex;
+            justify-content: space-evenly;
+            margin-top: 82px;
+            margin-left: 152px;
+        }
+        .contenct-4-1-1{
+            height: 28px;
+            width: 48px;
+            background-color: sandybrown;
+            text-align: center;
+            border-radius: 16px;
+            position: absolute;
+            top:14px;
+            left: 158px;
+        }
+        .contenct4-1,.contenct4-2,.contenct4-3,.contenct4-4{
+            position: relative;
+        }
+        .contenct4-icon{
+            position: absolute;
+            right: 0;
+            bottom: -12px
+        }
+        .contenct-4-1-2{
+            height: 30px;
+           display: flex;
+           margin-top:16px ;
+        }
+        /* end contenct 4 */
+        /* start contenct 5 */
+        .contenct5{
+            width: 1150px;
+            display: flex;
+            justify-content: space-evenly;
+            margin-top: 82px;
+            margin-left: 152px;
+        }
+        .contenct-5-1-1{
+            height: 28px;
+            width: 48px;
+            background-color: sandybrown;
+            text-align: center;
+            border-radius: 16px;
+            position: absolute;
+            top:14px;
+            left: 158px;
+        }
+        .contenct5-1,.contenct5-2,.contenct5-3,.contenct5-4{
+            position: relative;
+        }
+        .contenct5-icon{
+            position: absolute;
+            right: 0;
+            bottom: -12px
+        }
+        .contenct-5-1-2{
+            height: 30px;
+           display: flex;
+           margin-top:16px ;
+        }
+        /* end contenct5 */
+        /* start contenct6 */
+        .contenct6{
+            width: 1150px;
+            margin-top: 108px;
+            margin-left: 152px;
+            display: flex;
+            height: 38px;
+            justify-content: center;
+        }
+        .contenct5-item{
+            line-height: 36px;
+            padding:0 16px;
+        }
+        .contenct5-item:hover  {
+            color:rgb(53, 235, 8,1);
+            border-radius: 100%;
+            background-color: rgb(178, 249, 200,0.2);
+        }
+        .footer {
+            height: 436px;
+            margin-left: 8px;
+            background-color: #191c22f0 ;
+            color: #fff;
+            display: flex;
+            justify-content: space-around;
+        }
+        .footer1,.footer2{
+           margin-top: 100px; 
+        }
+        .footer1{
+            display: flex;
+            justify-content: space-around;
+            width: 474px;
+        }
+       .footer1 li{
+        list-style-type: none;
+        margin-bottom: 22px;
+       }
+       select{
+        background-color: #191c22f0;
+        color: #fff;
         
-        .slider {}
-        
-        .contenct {}
-        
-        .footer {}
+       }
+       .footer2-3>input{
+        height: 40px;
+        width: 302;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        border-right: none;
+        float: left;
+        background-color: #191c22f0;
+        border-color: #fff;
+       }
+       button{
+        height: 40px;
+        width: 128px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        border-left: none;
+        background-color: #50e0b7ca;
+        border-color: #50e0b7ca;
+       }
+       .footer2-5 ul{
+        display: flex;
+       }
+       .footer2-5 li{
+        margin-right: 28px;
+       }
+       .footer2-1,.footer2-2,.footer2-3,.footer2-4{
+        margin-bottom: 22px;
+       }
     </style>
 </head>
 
 <body>
+    <div class="main">
     <div class="header">
         <ul class="ul-header1">
-            <li class="li-nav1">Stop</li>
-            <li class="li-nav1">Offters</li>
-            <li class="li-nav1">Our story</li>
-            <li class="li-nav1">Blog</li>
+            <li class="li-nav1-1">Stop</li>
+            <li class="li-nav1-2">Offters</li>
+            <li class="li-nav1-3">Our story</li>
+            <li class="li-nav1-4">Blog</li>
         </ul>
         <div><img class="header-img1" src="./Image 1 (21).png" alt=""></div>
         <ul class="ul_header2">
-            <li class="li-nav2"> <input type=" text " name=" " id=" " placeholder="Search product "></li>
-            <li class="li-nav2"> <img class="header-img2" src="./Button 1 (1).png" alt=""></li>
-            <li class="li-nav2"><img class=" header-img3 " src="./Button 1.png " alt=" "></li>
+            <li class="li-nav2-1"> <input style="width: 204px; height: 36px;" type=" text " name=" " id=" " placeholder="    Search product "></li>
+            <li class="li-nav2-2"> <img  src="./Button 1 (1).png" alt=""></li>
+            <li class="li-nav2-3"><img  src="./Button 1.png " alt=" "></li>
         </ul>
     </div>
-    <div class="slider "></div>
-    <div class="contenct "></div>
-    <div class="footer "></div>
+    <div class="slider ">
+        <img src="./Image 1.png" alt="">
+        <div class="slider1"><b> Gift for your skin</b> <br> Aliquip fugiat ipsum nostrud ex set eu incididunt <br> quis minim dolore excepteur voluptate</div>
+    </div>
+    <div class="contenct">
+        <!-- contenct 1 -->
+        <div class="contenct-I">
+        <div class="contenct1">
+            <div style="background-color: #009688; color: #fff; line-height: 38px; width: 179px; height: 53px; "> <p style=" line-height: 53px; margin-left: 44px;">All products</p> </div>
+            <div style="line-height: 38px;"> <p style=" line-height: 53px;">Face</p>  </div>
+            <div  style="line-height: 38px;"><p style=" line-height: 53px;">|</p>  </div>
+            <div  style="line-height: 38px;"> <p style=" line-height: 53px;">Body</p> </div>
+        </div>
+        <!-- contenct 2 -->
+        <div class="contenct2">
+           <p style=" line-height: 54px;"> <input style="height: 53px; width: 233px ;  border-top-style: hidden;
+            border-right-style: hidden;
+            border-left-style: hidden; " type="text" name="" id="" placeholder="          Search product...."></p>
+            <div style="background-color: #9e9e9e29 ;height: 53px; width: 134px;text-align: center;"><p style="line-height: 53px;display: inline;">Sort by </p> <img style="width: 20px; height: 16px; line-height: 38px;" src="./Screenshot 2023-03-11 173810.png" alt=""></div>
+        </div>
+    </div>
+    <!-- contenct 3 -->
+        <div class="contenct3">
+        <div class="contenct3-1">
+            <div class="contenct-3-1-1"> <p style="line-height: 28px;"> best-seller</p></div>
+            <img src="./Image 1 (1).png" alt="">
+            <p style="margin-top:24px ;" ><b>Product title</b></p>
+            <p style="margin-top:8px ;" >Labore sint ipsum dolore mollit</p> 
+            <div class="contenct-3-1-2"> <p style="margin-top:24px ;" > <p><b style="font-size: 30px;"> $32</b></p> <p style=" line-height: 32px; margin-left:12px ; color: #b3b3b3;"> $42</p>
+            </div>
+            <img class="contenct3-icon" src="./Button 1 (2).png" alt="">
+        </div>
+        <div class="contenct3-2">
+            <div class="contenct-3-1-1"> <p style="line-height: 28px;"> best-seller</p></div>
+            <img src="./Image 1 (2).png" alt="">
+            <p style="margin-top:24px ;" ><b>Product title</b></p>
+            <p style="margin-top:8px ;" >Labore sint ipsum dolore mollit</p> 
+            <div class="contenct-3-1-2"> <p style="margin-top:24px ;" > <p><b style="font-size: 30px;"> $22</b></p> <p style=" line-height: 32px; margin-left:12px ; color: #b3b3b3;"> $28</p>
+            </div>
+            <img class="contenct3-icon" src="./Button 1 (2).png" alt="">
+        </div>
+        <div class="contenct3-3">
+            <div class="contenct-3-1-1"> <p style="line-height: 28px;"> best-seller</p></div>
+            <img src="./Image 1 (3).png" alt="">
+            <p style="margin-top:24px ;" ><b>Product title</b></p>
+            <p style="margin-top:8px ;" >Labore sint ipsum dolore mollit</p> 
+            <div class="contenct-3-1-2"> <p style="margin-top:24px ;" > <p><b style="font-size: 30px;"> $18</b></p> <p style=" line-height: 32px; margin-left:12px ; color: #b3b3b3;"> $26</p>
+            </div>
+            <img class="contenct3-icon" src="./Button 1 (2).png" alt="">
+        </div>
+        <div class="contenct3-4">
+            <div class="contenct-3-1-1"> <p style="line-height: 28px;"> best-seller</p></div>
+            <img src="./Image 1 (4).png" alt="">
+            <p style="margin-top:24px ;" ><b>Product title</b></p>
+            <p style="margin-top:8px ;" >Labore sint ipsum dolore mollit</p> 
+            <div class="contenct-3-1-2"> <p > <p><b style="font-size: 30px;"> $48</b></p> <p style=" line-height: 32px; margin-left:12px ; color: #b3b3b3;"> $56</p></p>
+            </div>
+            <img class="contenct3-icon" src="./Button 1 (2).png" alt="">
+        </div>  
+    </div>     
+         <!--contenct 4  -->
+        <div class="contenct4">
+            <div class="contenct4-1">
+                <img src="./Image 1 (5).png" alt="">
+                <p style="margin-top:24px ;" ><b>Product title</b></p>
+                <p style="margin-top:8px ;" >Labore sint ipsum dolore mollit</p> 
+                <div class="contenct-4-1-2"> <p style="margin-top:24px ;" > <p><b style="font-size: 30px;"> $31</b></p> 
+                </div>
+                <img class="contenct4-icon" src="./Button 1 (2).png" alt="">
+            </div>
+            <div class="contenct4-2">
+                <div class="contenct-4-1-1"> <p style="line-height: 28px;"> New</p></div>
+                <img src="./Image 1 (6).png" alt="">
+                <p style="margin-top:24px ;" ><b>Product title</b></p>
+                <p style="margin-top:8px ;" >Labore sint ipsum dolore mollit</p> 
+                <div class="contenct-4-1-2"> <p style="margin-top:24px ;" > <p><b style="font-size: 30px;"> $40</b></p> <p style=" line-height: 32px; margin-left:12px ; color: #b3b3b3;"> $48</p>
+                </div>
+                <img class="contenct4-icon" src="./Button 1 (2).png" alt="">
+            </div>
+            <div class="contenct4-3">
+                <img src="./Image 1 (7).png" alt="">
+                <p style="margin-top:24px ;" ><b>Product title</b></p>
+                <p style="margin-top:8px ;" >Labore sint ipsum dolore mollit</p> 
+                <div class="contenct-4-1-2"> <p style="margin-top:24px ;" > <p><b style="font-size: 30px;"> $26</b></p> 
+                </div>
+                <img class="contenct4-icon" src="./Button 1 (2).png" alt="">
+            </div>
+            <div class="contenct4-4">
+                <img src="./Image 1 (8).png" alt="">
+                <p style="margin-top:24px ;" ><b>Product title</b></p>
+                <p style="margin-top:8px ;" >Labore sint ipsum dolore mollit</p> 
+                <div class="contenct-4-1-2"> <p > <p><b style="font-size: 30px;"> $18</b></p>
+                </div>
+                <img class="contenct4-icon" src="./Button 1 (2).png" alt="">
+            </div>
+        </div>
+        <!--end contenct 4-->
+        <!-- start contenct 5-->
+        <div class="contenct5">
+            <div class="contenct5-1">
+                <div class="contenct-5-1-1"> <p style="line-height: 28px;"> New</p></div>
+                <img src="./Image 1 (9).png" alt="">
+                <p style="margin-top:24px ;" ><b>Product title</b></p>
+                <p style="margin-top:8px ;" >Labore sint ipsum dolore mollit</p> 
+                <div class="contenct-5-1-2"> <p style="margin-top:24px ;" > <p><b style="font-size: 30px;"> $52</b></p> 
+                </div>
+                <img class="contenct5-icon" src="./Button 1 (2).png" alt="">
+            </div>
+            <div class="contenct5-2">
+            
+                <img src="./Image 1 (10).png" alt="">
+                <p style="margin-top:24px ;" ><b>Product title</b></p>
+                <p style="margin-top:8px ;" >Labore sint ipsum dolore mollit</p> 
+                <div class="contenct-5-1-2"> <p style="margin-top:24px ;" > <p><b style="font-size: 30px;"> $47</b></p> <p style=" line-height: 32px; margin-left:12px ; color: #b3b3b3;"> $42</p>
+                </div>
+                <img class="contenct5-icon" src="./Button 1 (2).png" alt="">
+            </div>
+            <div class="contenct5-3">
+                <img src="./Image 1 (11).png" alt="">
+                <p style="margin-top:24px ;" ><b>Product title</b></p>
+                <p style="margin-top:8px ;" >Labore sint ipsum dolore mollit</p> 
+                <div class="contenct-5-1-2"> <p style="margin-top:24px ;" > <p><b style="font-size: 30px;"> $44</b></p> 
+                </div>
+                <img class="contenct5-icon" src="./Button 1 (2).png" alt="">
+            </div>
+            <div class="contenct5-4">
+                <div class="contenct-5-1-1"> <p style="line-height: 28px;"> New</p></div>
+
+                <img src="./Image 1 (12).png" alt="">
+                <p style="margin-top:24px ;" ><b>Product title</b></p>
+                <p style="margin-top:8px ;" >Labore sint ipsum dolore mollit</p> 
+                <div class="contenct-5-1-2"> <p > <p><b style="font-size: 30px;"> $32</b></p><p style=" line-height: 32px; margin-left:12px ; color: #b3b3b3;"> $42</p>
+                </div>
+                <img class="contenct5-icon" src="./Button 1 (2).png" alt="">
+            </div>
+        </div>
+        <div class="contenct6">
+            <div class="contenct5-item"><img src="./Button 1 (5).png" alt=""></div>
+            <div class="contenct5-item">1</div>
+            <div class="contenct5-item">2</div>
+            <div class="contenct5-item">3</div>
+            <div class="contenct5-item">4</div>
+            <div class="contenct5-item"><img src="./Button 1 (6).png" alt=""></div>
+        </div>
+    </div>
+    <div class="footer ">
+        <div class="footer1">
+            <ul class="footer1-1">
+                <li class="footer1-1-1" style="font-size: 24px;"> <b> About</b></li>
+                <li class="footer1-1-2">  Home</li>
+                <li class="footer1-1-3">Shop</li>
+                <li class="footer1-1-4">Our</li>
+                <li class="footer1-1-5">Blogs</li>
+                <li class="footer1-1-6"><select name="" id="" style="height: 34px; width: 128px; " ><option value="">English</option></select></li>
+            </ul>
+            <ul class="footer1-2"> 
+                <li class="footer1-2-1"style="font-size: 24px;"> <b > Help</b></li>
+                <li class="footer1-2-2">Shipping & Returns</li>
+                <li class="footer1-2-3">Track Order</li>
+                <li class="footer1-2-4">FAQs</li>
+            </ul>
+            <ul class="footer1-3">
+                <li class="footer1-3-1" style="font-size: 24px;"> <b> Contact</b></li>
+                <li class="footer1-3-2">Phone</li>
+                <li class="footer1-3-3"> <b> (+1)1234567893</b></li>
+                <li class="footer1-3-4">Email:</li>
+                <li class="footer1-3-5"> <b> name@email.com</b></li>
+            </ul>
+        </div>
+        <div class="footer2">
+            <div class="footer2-1"><p> <b> receive new promotions</b></p></div>
+            <div class="footer2-2"><p>Duis ea tempor commodo amet reprehende</p></div>
+            <div class="footer2-3">
+                <input type="text" name="" id="" placeholder="input your email">
+                <button class="icon">Subscribe</button>
+            </div>
+            <div class="footer2-4">
+                <img src="./Twitter 1.png" alt="">
+                <img src="./Facebook 1.png" alt="">
+                <img src="./LinkedIn 1.png" alt="">
+                <img src="./YouTube 1.png" alt="">
+            </div>
+            <div class="footer2-5">
+                <ul>
+                    <li> 2022 Brand, inc</li>
+                    <li>Privacy</li>
+                    <li>terms</li>
+                    <li>Sitemap</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
 </body>
 
 </html>

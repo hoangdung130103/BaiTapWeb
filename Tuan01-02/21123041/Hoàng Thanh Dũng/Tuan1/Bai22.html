@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./icon/fontawesome-free-6.3.0-web/css/all.css">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        html{
+                font-family: 'Roboto', sans-serif;
+            }
+        .text-color1{
+            color: #8c8590;
+        }
+        .text-color2{
+            color: #474743;
+        }
+        .boder-underlined{
+            border-bottom: 2px solid #b9cad6;
+        }
+        #header{
+            display: flex;
+        }
+        #header_logow3c{
+            height: 200px;
+            width: 250px;
+            box-shadow: 2px 3px 5px gray;
+            object-fit: cover;
+        }
+        #header_nav {
+            background-color: #eeeeee;
+            width: 100%;
+            position: relative;
+        }
+        #header_nav-sample {
+            display: flex;
+            justify-content: space-between;
+            margin: 30px;
+        }
+        #header_nav-sample--view {
+            display: flex;
+            align-items: center;
+           border-radius: 6px;
+           height: 36px;
+           width: 360px;
+           background-color: #e8e7e7;
+           border-top: 1px solid #ababab;
+           border-left: 1px solid #ababab;
+           border-bottom: 1px solid #ffff;
+           border-right: 1px solid #ffff;
+        }
+        #header_nav-sample--view--ul{
+            list-style-type: none;
+
+            align-items: center;          
+        }
+        #header_nav-sample--view--li{
+            display: inline-block;
+            font-size: 20px;
+            margin: 0 12px;
+        }
+        #header_nav-button--select{
+            height: 30px;
+            width: 320px;
+            border: 1px solid #d9d9d9;
+        }
+        #header_nav-button--go {
+            height: 28px;
+            width: 34px;
+            background-color: #4d4d4d;
+            color: #ffff;
+            border: none;
+            border-radius: 4px;
+            box-shadow: 2px 2px 2px grey;
+        }
+        #header_nav-menu {
+
+        }
+        #header_nav-menu-ul {
+            list-style-type: none;
+        }
+        #header_nav-menu-li {
+            font-size: 26px;
+            padding: 10px 30px;
+            display: inline-block;
+            color: #0b5d8c;
+            border-left:1px solid #ababab;
+        }
+        #header_nav-menu-li:first-child {
+            border-left: none;
+        }
+        #header_nav-google {
+            position: absolute;
+            display: flex;
+            align-items: center;
+            right: 30px;
+            height: 30px;
+            background-color: #fff;
+            border-radius: 8px;
+            margin-top: 10px;
+        }
+        #header_nav-google--input {
+            height: 30px;
+            padding: 0 12px;
+            border: none;
+            border-radius: 8px;
+        }
+        #header_nav-google--icon {
+            padding: 12px;
+            display: inline;
+        }
+        #container {
+            display: flex;
+        }
+        #container_sidebar{
+            display: inline-block;
+            background-color: #eeeeee;
+            color: #1b496c;
+            width: 250px;
+        }
+        .container_sidebar-infor {
+            margin: 30px 0 0 0px;
+        }
+       .container_sidebar-infor--branch{
+            position: relative;
+            background-color: #8c8590;
+            box-shadow: 0 2px 10px gray;
+            padding: 30px;
+       }
+       #container_sidebar-infor--branch--type{
+            display: inline-block;
+            position: absolute;
+       }
+       #container_sidebar-infor--type--ul{
+            display: inline-block;
+            list-style-type: none;
+       }
+    </style>
+</head>
+<body>
+    <div id="main">
+        <div id="header">
+            <img src="./images/W3C.jpg" alt="logo w3c" id="header_logow3c">
+            <div id="header_nav">
+                <div id="header_nav-sample">
+                    <div id="header_nav-sample--view">
+                        <ul id="header_nav-sample--view--ul">
+                            <li id="header_nav-sample--view--li" class="text-color2">Views: </li>
+                            <li id="header_nav-sample--view--li">desktop</li>
+                            <li id="header_nav-sample--view--li" class="boder-underlined text-color1">mobile</li>
+                            <li id="header_nav-sample--view--li" class="boder-underlined text-color1">print</li>
+                        </ul>
+                    </div>
+                    <div id="header_nav-button">
+                        <select name="" id="header_nav-button--select">
+                            <option value="">W3C by Region</option>
+                            <option value="">Hoàng Thanh Dũng</option>
+                            <option value="">DHKHMT17B</option>
+                        </select>
+                        <input type="submit" value="Go" id="header_nav-button--go">
+                    </div>
+                </div>
+                <div id="header_nav-menu">
+                    <ul id="header_nav-menu-ul">
+                        <li id="header_nav-menu-li">STANDARDS</li>
+                        <li id="header_nav-menu-li">PARTICIPATE</li>
+                        <li id="header_nav-menu-li">MEMBERSHIP</li>
+                        <li id="header_nav-menu-li">ABOUT W3C</li>
+                    </ul>
+                </div>
+                <div id="header_nav-google">
+                    <input type="search" id="header_nav-google--input" placeholder="Google">
+                    <p id="header_nav-google--icon"><i class="fa-solid fa-magnifying-glass"></i></p>
+                </div>
+            </div>
+        </div>
+        <div id="container">
+            <div id="container_sidebar">
+                <div class="container_sidebar-infor">
+                    <div class="container_sidebar-infor--branch">
+                            <p id="container_sidebar-infor--branch--text">TECHINCAL REPORTS<i class="fa-sharp fa-regular fa-rectangle-list"></i></p>
+                    </div>
+                    <div class="container_sidebar-infor--type">
+                        <ul id="container_sidebar-infor--type--ul">
+                            <li class="container_sidebar-infor--type--li">By date</li>
+                            <li class="container_sidebar-infor--type--li">By group</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
