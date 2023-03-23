@@ -28,7 +28,10 @@
             </div>
             <div id="header-search">
                 <ul class="header-search-nav">
-                    <li class="header-search-subnav"><input style="width: 332px;height: 34px; background-color: rgb(247, 247, 247); color: grey; border: 0px;" type="text" name="" id="" value="  Search..."> <i class="fa-regular fa-magnifying-glass"></i></li>
+                    <li class="header-search-subnav"><input style="width: 332px;height: 34px; background-color: rgb(247, 247, 247); color: grey; border: 0px; padding-left: 28px; border-radius: 4px;" type="text"
+                        name="" id="" value="  Search..."> <i style="  position: absolute;left: 12px;
+                        align-items: center;
+                        transform: translateY(50%);" class="fa-solid fa-magnifying-glass"></i></li>
                     <li class="header-search-subnav"><img src="./assets/img/Bell 1.png " alt=""></li>
                     <li class="header-search-subnav"><img src="./assets/img/Shopping cart simple 1.png " alt=""></li>
                     <li class="header-search-subnav"><img src="./assets/img/Avatar 758.png " alt=""></li>
@@ -42,7 +45,13 @@
                     <h1 class="content-img-product-nav1" style="font-size: 46px;">Product titel</h1>
                     <div class="content-img-product-nav2">
                         <p><img src="./assets/img/Rating 303.png" alt=""> <b>4.2D </b><span style="color: #9095A0;">(99 reviews)</span></p>
-                        <p><span style="margin-right: 46px;">share</span><span><img style="height: 12px; height: 14px;" src="./assets/img/Heart 23.png " alt=""> Save</span></p>
+                        <p>
+                            <span style="margin-right: 46px; position: relative;" >
+                                <i style="position: absolute ; top: 3px;
+                                left: -16px;" class="fa-solid fa-share-nodes"></i>
+                                share</span>
+                                <span><img style="height: 12px; height: 14px;" src="./assets/img/Heart 23.png " alt=""> Save</span>
+                            </p>
                     </div>
                 </div>
                 <div id="content-img-img">
@@ -107,7 +116,8 @@
                                 <button style="width: 298px; height: 46px; background-color: #00BDD6;border:none; color: #fff; border-radius: 4px;">Buy now</button>
                             </li>
                             <li class="content-right-subnav">
-                                <button style="width: 298px; height: 46px; border-radius: 4px; border: none; border: 1px #00BDD6 solid; color: #00BDD6; background-color: #fff; ">Add to cart </button>
+                                <button style="width: 298px; height: 46px; border-radius: 4px; border: none; border: 1px #00BDD6 solid; color: #00BDD6; background-color: #fff; "> <i  class="fa-solid fa-cart-shopping" style="color: #00bdd0; position: relative; top: -1px;
+                                left: -6px;"></i>Add to cart </button>
                             </li>
                         </ul>
                     </div>
@@ -117,10 +127,15 @@
                 <div id="content-reviews-titel">
                     <h2 style="margin-right: 8px;">Reviews</h2>
                     <div class="content-reviews-titel-nav">
-                            <img src="./assets/img/Rating 304.png" alt="">
+                          <div class="mot">
+
+                           <img src="./assets/img/Rating 304.png" alt="">
                             <b>4.2D</b>
-                            <p style="color: #8E949F;">(99 reviews)</p>
+                            <p style="color: #8E949F;">(99 reviews)</div>
+                        </p>
+                        <p style="color: #9095A0;">Show all review <i class="fa-solid fa-angle-right" style="color: #9095a0; padding-left: 12px;"></i></p>
                     </div>
+                </div> 
                 </div>
                 <div id="content-reviews-conment">
                     <div id="content-reviews-conment-left">
@@ -178,7 +193,7 @@
         <div id="slider">
             <div id="slider-titel">
                 <h2>Related products</h2>
-                <p style="color: #B2B6BD; margin-right: 16px;">see more ></p>
+                <p style="color: #B2B6BD; margin-right: 16px;">see more <i class="fa-solid fa-angle-right" style="color: #9095a0; padding-left: 12px;"></i></p>
             </div>
             <div id="slider-img">
                 <div id="slider-img-one">
@@ -263,6 +278,7 @@
             </div>
             <div id="footer-input"> 
                 <input class="forter-input-input" type="text" name="" id="" value="input your email">
+                <i style="position: absolute;left: 420px; transform: translateY(50%);" class="fa-regular fa-envelope"></i>
                 <button class="forter-input-button" > Subscribe</button>
             </div>
             <div id="footer-list">
